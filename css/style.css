@@ -1,0 +1,87 @@
+.search {
+	text-align: center;
+	padding-top: 100px;
+}
+.search form {
+	display:inline-block;
+	vertical-align: middle;
+}
+#searchbox {
+	width: 250px;
+	border: 2px solid #CCC;
+	padding: 6px 10px;
+	display: inline-block;
+	color: #999;
+	border-radius: 12px;
+	font-style: italic;
+}
+
+#searchbox:focus {
+	border: 2px solid #0BC;
+	outline: 0;
+}
+
+#searchsubmit {
+	font-size: 13pt;
+	width: 20px;
+	height: 20px;
+	padding: 8px;
+	background-color: #444;
+	display: inline-block;
+	border-radius: 50%;
+	color: #FFF;
+	text-align: center;
+	margin: 0 6px;
+	vertical-align: middle;
+}
+#searchsubmit:hover {background-color: #666;}
+
+/*Template CSS*/
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,700);
+
+body {
+	margin: 0;
+	font-family: Arimo, sans-serif;
+}
+
+.header {
+	background-color: #D4FF33;
+	width: 100%;
+	color: #97BA14;
+	float: left;
+	display: none;
+}
+
+.header div {
+	padding: 5px 10px;
+}
+
+.header a {
+	color: #FF0055;
+	text-decoration: none;
+}
+
+.header a:hover {
+	color: #B2003B;
+}
+
+.header i {
+	font-size: 1.1em;
+	padding: 1px 2px 0 2px;
+}
+
+.header-wrapper {
+	height: 5em;
+	float: left;
+	width: 100%;
+}
+
+.left {
+	float: left;
+	display: inline-block;
+}
+
+.right {
+	float: right;
+	display: inline-block;
+}
