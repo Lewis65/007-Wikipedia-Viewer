@@ -16,3 +16,18 @@ $('.header-wrapper').mouseleave(function(){
 $('#searchbox').click(function(){
 	$('#searchbox').css({'font-style':'normal','color':'#444'}).attr('value','')
 });
+
+$('#searchrandom').click(function(){
+	window.open('https://en.wikipedia.org/wiki/Special:Random','_blank')
+});
+
+var search = "";
+
+$('#searchsubmit').click(function(){
+	search = $('#searchbox').html();
+	var url = "http://wikipedia.org";
+	if(search!=="") {
+		url = "http://wikipedia.org/w/api.php/action=query&list=search&format=json&srsearch=" + encodeURI(search);
+	}
+	window.open(url,'_blank')
+});

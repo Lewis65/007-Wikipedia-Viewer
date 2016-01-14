@@ -1,3 +1,5 @@
+i{margin-left: -1px;}
+
 .search {
 	text-align: center;
 	padding-top: 100px;
@@ -21,12 +23,11 @@
 	outline: 0;
 }
 
-#searchsubmit {
+#searchsubmit, #searchrandom {
 	font-size: 13pt;
 	width: 20px;
 	height: 20px;
 	padding: 8px;
-	background-color: #444;
 	display: inline-block;
 	border-radius: 50%;
 	color: #FFF;
@@ -34,6 +35,9 @@
 	margin: 0 6px;
 	vertical-align: middle;
 }
+#searchrandom{background-color: #0B6;}
+#searchrandom:hover{background-color: #0C7;}
+#searchsubmit{background-color: #444;}
 #searchsubmit:hover {background-color: #666;}
 
 /*Template CSS*/
